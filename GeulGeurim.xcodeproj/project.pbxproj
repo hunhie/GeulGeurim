@@ -15,6 +15,7 @@
 		B672B8302B0910E000E5201B /* GeulGeurimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672B82F2B0910E000E5201B /* GeulGeurimTests.swift */; };
 		B672B83A2B0910E000E5201B /* GeulGeurimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672B8392B0910E000E5201B /* GeulGeurimUITests.swift */; };
 		B672B83C2B0910E000E5201B /* GeulGeurimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672B83B2B0910E000E5201B /* GeulGeurimUITestsLaunchTests.swift */; };
+		B672B84E2B09156700E5201B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B672B84D2B09156700E5201B /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B672B8352B0910E000E5201B /* GeulGeurimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeulGeurimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B672B8392B0910E000E5201B /* GeulGeurimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeulGeurimUITests.swift; sourceTree = "<group>"; };
 		B672B83B2B0910E000E5201B /* GeulGeurimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeulGeurimUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B672B84D2B09156700E5201B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		B672B80C2B0910DF00E5201B = {
 			isa = PBXGroup;
 			children = (
+				B672B84D2B09156700E5201B /* .gitignore */,
 				B672B8172B0910DF00E5201B /* GeulGeurim */,
 				B672B82E2B0910E000E5201B /* GeulGeurimTests */,
 				B672B8382B0910E000E5201B /* GeulGeurimUITests */,
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B672B8252B0910E000E5201B /* LaunchScreen.storyboard in Resources */,
+				B672B84E2B09156700E5201B /* .gitignore in Resources */,
 				B672B8222B0910E000E5201B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
