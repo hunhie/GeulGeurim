@@ -16,6 +16,7 @@
 		B672B83A2B0910E000E5201B /* GeulGeurimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672B8392B0910E000E5201B /* GeulGeurimUITests.swift */; };
 		B672B83C2B0910E000E5201B /* GeulGeurimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672B83B2B0910E000E5201B /* GeulGeurimUITestsLaunchTests.swift */; };
 		B672B84E2B09156700E5201B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B672B84D2B09156700E5201B /* .gitignore */; };
+		B672B8512B0915CC00E5201B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B672B8502B0915CC00E5201B /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B672B8512B0915CC00E5201B /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = GeulGeurim;
+			packageProductDependencies = (
+				B672B8502B0915CC00E5201B /* SnapKit */,
+			);
 			productName = GeulGeurim;
 			productReference = B672B8152B0910DF00E5201B /* GeulGeurim.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = B672B80C2B0910DF00E5201B;
+			packageReferences = (
+				B672B84F2B0915CC00E5201B /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = B672B8162B0910DF00E5201B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -607,6 +615,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B672B84F2B0915CC00E5201B /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B672B8502B0915CC00E5201B /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B672B84F2B0915CC00E5201B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B672B80D2B0910DF00E5201B /* Project object */;
 }
