@@ -28,6 +28,7 @@
 		B672B8692B092F0300E5201B /* MoreTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672B8682B092F0300E5201B /* MoreTabCoordinator.swift */; };
 		B672B86B2B092F2500E5201B /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672B86A2B092F2500E5201B /* MoreViewController.swift */; };
 		B69A14B92B09337A004EF4DE /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69A14B82B09337A004EF4DE /* MainTabBarController.swift */; };
+		B69A14BC2B0940DD004EF4DE /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B69A14BB2B0940DD004EF4DE /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		B672B8682B092F0300E5201B /* MoreTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTabCoordinator.swift; sourceTree = "<group>"; };
 		B672B86A2B092F2500E5201B /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		B69A14B82B09337A004EF4DE /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		B69A14BB2B0940DD004EF4DE /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				B672B8662B092EE400E5201B /* LibraryViewController.swift */,
 				B672B8682B092F0300E5201B /* MoreTabCoordinator.swift */,
 				B672B86A2B092F2500E5201B /* MoreViewController.swift */,
+				B69A14BB2B0940DD004EF4DE /* Localizable.xcstrings */,
 			);
 			path = GeulGeurim;
 			sourceTree = "<group>";
@@ -246,11 +249,12 @@
 			};
 			buildConfigurationList = B672B8102B0910DF00E5201B /* Build configuration list for PBXProject "GeulGeurim" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = ko;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = B672B80C2B0910DF00E5201B;
 			packageReferences = (
@@ -274,6 +278,7 @@
 			files = (
 				B672B8252B0910E000E5201B /* LaunchScreen.storyboard in Resources */,
 				B672B84E2B09156700E5201B /* .gitignore in Resources */,
+				B69A14BC2B0940DD004EF4DE /* Localizable.xcstrings in Resources */,
 				B672B8222B0910E000E5201B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +370,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -428,6 +434,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
